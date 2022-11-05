@@ -2,8 +2,6 @@ FROM alpine
 
 WORKDIR /app
 
-COPY mohamed .
+COPY mohamed.java .
 
-RUN javac mohamed
-
-CMD mohamed
+CMD  java mohamed
